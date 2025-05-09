@@ -141,7 +141,7 @@ VALUES
 ('Guerra e Paz', 'Liev Tolstói', 'Companhia das Letras', '1869', '978-8535922343', 3, 3, 130.00, 'Disponível');
 
 -- Inserindo Emprestimos
-INSERT INTO Emprestimo (id_aluno, id_livro, data_emprestimo, data_devolucao, status_emprestimo) 
+INSERT INTO Emprestimo (id_aluno, id_livro, c, data_devolucao, status_emprestimo) 
 VALUES 
 (1, 2, '2024-09-01', '2024-09-15', 'Em andamento'),
 (2, 1, '2024-09-02', '2024-09-16', 'Em andamento'),
